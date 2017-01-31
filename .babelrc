@@ -1,0 +1,14 @@
+{
+  "presets": [
+    ["es2015", {"loose": false, "modules": false}],
+    "stage-1"
+  ],
+  "env": {
+    "test": {
+      "presets": [
+        ["es2015", {"loose": false, "modules": "commonjs"}],
+        "stage-1"
+      ]
+    }
+  }
+}

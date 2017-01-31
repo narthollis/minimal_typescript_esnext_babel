@@ -1,0 +1,26 @@
+.idea/
+# Build Output
+
+public/*
+!public/sampleJSON/
+!public/SimData/
+!public/icons/
+
+# Test anc Coverate ouput
+reports/
+coverage/
+
+# Dependency directories
+node_modules
+jspm_packages
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+npm-debug.log*
+.DS_Store
+
+.vscode/

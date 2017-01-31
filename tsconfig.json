@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "module": "es6",
+    "target": "esnext",
+    "jsx": "preserve",
+    "sourceMap": true,
+    "noEmitHelpers": true,
+    "importHelpers": true,
+    "strictNullChecks": true,
+    "noImplicitAny": true,
+    "noEmitOnError": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+
+    "moduleResolution": "node",
+
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "es2017"
+    ]
+  },
+
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "libdefs/*.d.ts"
+  ]
+}

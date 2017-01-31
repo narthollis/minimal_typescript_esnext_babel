@@ -1,0 +1,15 @@
+{
+  "name": "typescript_babel_esnext",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "repository": {},
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^18.1.0",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-stage-1": "^6.22.0",
+    "jest": "^18.1.0",
+    "jest-cli": "^18.1.0",
+    "typescript": "^2.1.5"
+  }
+}
